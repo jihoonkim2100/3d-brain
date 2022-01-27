@@ -1,0 +1,25 @@
+{
+  "name": "three.js-typescript-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config ./src/client/webpack.prod.js",
+    "dev": "webpack serve --config ./src/client/webpack.dev.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d ./dist/client"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/three": "^0.136.1",
+    "gh-pages": "^3.2.3",
+    "three": "^0.137.2",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.5.5",
+    "webpack": "^5.67.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.3",
+    "webpack-merge": "^5.8.0"
+  }
+}
